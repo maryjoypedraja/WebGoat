@@ -27,7 +27,7 @@ jobs:
         env:
           FOD_URL: https://ams.fortify.com
           FOD_TENANT: ${{secrets.FOD_TENANT}}
-          FOD_CLIENT_ID: ${{secrets.FOD_CLIENT_ID}}
+          FOD_CLIENT_ID: 9fc92b00-f378-4a27-a8b3-6d3ada1effbf
           FOD_CLIENT_SECRET: ${{secrets.FOD_CLIENT_SECRET}}
           # EXTRA_FOD_LOGIN_OPTS: --socket-timeout=60s
           FOD_RELEASE: ${{secrets.FOD_RELEASE_ID}}
